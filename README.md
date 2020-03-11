@@ -13,4 +13,4 @@ If the payment data is static we can generate the `data` and `signature` paramet
 In other case (when f.e. we allow the portal visitor to choose the donation amount before redirecting them to LiqPay page) these parameters should be generated on the fly, f.e. by ajax request to server-side script. 
 
 ## Example
-https://storage.googleapis.com/techukraine/tu_donate.html
+https://storage.googleapis.com/techukraine/techukraine_donate.html
