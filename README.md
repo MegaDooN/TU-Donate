@@ -9,6 +9,7 @@ The details on how to generate request parameters are here: https://www.liqpay.u
 * `action` parameter should have `paydonate` value 
 
 If the payment data is static we can generate the `data` and `signature` parameters using this page: https://www.liqpay.ua/documentation/en/forming_test_data/
+
 In other case (when f.e. we allow the portal visitor to choose the donation amount before redirecting them to LiqPay page) these parameters should be generated on the fly, f.e. by ajax request to server-side script. 
 
 ## Example
